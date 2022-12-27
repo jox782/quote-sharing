@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="main">
+      <form method="post" action="log.php">
+        <div class="card">
+          <h1>Login</h1>
+          <input name="email" type="text" placeholder="Email" required />
+          <input name="password" type="text" placeholder="password" required />
+          <input name="log" class="btn" type="submit" value="Login" />
+          <p class="go-to">
+            Don't have an account? <a href="register.php">Register</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

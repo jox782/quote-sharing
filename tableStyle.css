@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --body-background: #222;
+  --input-background: #111;
+  --input-focus-background: #000;
+  --font-color: #fff;
+  /* --primary-color: #cf6679; */
+  --primary-color: hsl(150, 100%, 66%);
+  --primary-color-hover: #d64e67;
+}
+
+body {
+  color: var(--font-color);
+  font-family: system-ui;
+}
+/* Start output */
+h1 {
+  text-align: center;
+  width: 50%;
+  margin: 50px auto 0px auto;
+  color: var(--primary-color);
+}
+table a {
+  width: 25%;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 10px 0;
+  transition: 0.1s;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+#update {
+  color: var(--primary-color);
+}
+#delete {
+  color: #d64e67;
+}
+table a:hover {
+  filter: contrast(200%);
+}
+
+table {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+table th {
+  text-transform: uppercase;
+}
+
+th {
+  width: 10%;
+  padding: 15px;
+  font-size: 22px;
+}
+td {
+  width: 10%;
+  padding: 5px;
+}
+/* End output */

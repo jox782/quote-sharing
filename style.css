@@ -1,0 +1,226 @@
+/* start glogal */
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --primary-color-hover: #d64e67;
+  /* --neon-green: #cf6679; */
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+  --font-family: "Manrope", sans-serif;
+  --q-font-size: 28px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+.good-msg {
+  color: var(--neon-green);
+}
+.bad-msg {
+  color: var(--primary-color-hover);
+}
+a {
+  text-decoration: none;
+}
+/* End global */
+
+/* Start header*/
+body {
+  background-color: var(--dark-blue);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+  width: 100%;
+  color: var(--light-cyan);
+  background-color: hsl(218, 24%, 13%);
+}
+header h2 {
+  color: var(--neon-green);
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--light-cyan);
+}
+header h2 a {
+  color: var(--neon-green);
+  text-decoration: none;
+  color: var(--light-cyan);
+}
+nav {
+  width: 50%;
+}
+nav a {
+  color: var(--neon-green);
+}
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  justify-content: right;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+ul li a {
+  text-decoration: none;
+}
+header form {
+  margin: auto 0 auto 0;
+}
+header form input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+header form input:hover {
+  background-color: var(--light-cyan);
+}
+/* End header*/
+
+/* start main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 93.56px);
+  font-family: var(--font-family);
+}
+.card {
+  width: 800px;
+  min-height: 380px;
+  padding: 35px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-grayish-blue);
+  position: relative;
+}
+.advice {
+  color: var(--neon-green);
+  margin: 35px 0px;
+  font-size: 13px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+blockquote,
+q {
+  color: var(--light-cyan);
+  font-size: var(--q-font-size);
+  font-weight: 800;
+  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.line-img {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.circle {
+  background-color: var(--neon-green);
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.circle:hover {
+  box-shadow: 0 0 20px 15px hsla(150, 100%, 66%, 0.411); /* inner white */
+}
+.circle:active {
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transform: scale(0.9);
+}
+
+/* End main */
+
+/* Start Home*/
+.card h1 {
+  margin: 20px;
+  color: var(--neon-green);
+}
+.card input {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+  border: none;
+}
+.card input[type="text"],
+.card input[type="password"],
+.card input[type="email"] {
+  color: var(--light-cyan);
+  font-size: 16px;
+}
+.card input[type="text"]:hover {
+  background-color: hsl(219, 17%, 19%);
+}
+
+.card .go-to {
+  margin: 10px;
+  color: var(--light-cyan);
+}
+p a {
+  color: var(--neon-green);
+  text-decoration: none;
+}
+input.btn {
+  margin-top: 10px;
+  background-color: var(--neon-green);
+  transition: 0.3s;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+input.btn:hover {
+  transform: scale(1.1);
+}
+input.btn:active {
+  transform: scale(0.9);
+}
+/* End Home*/
+
+/* Text area*/
+textarea {
+  margin: 20px 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+  border: none;
+  color: var(--light-cyan);
+  font-size: 20px;
+}
+/* Text area*/
+
+/* Start media query */
+/* small screen */
+
+@media (max-width: 1000px) {
+  .card {
+    width: 90%;
+  }
+  .card .line-img {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+}
