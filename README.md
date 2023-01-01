@@ -1,7 +1,7 @@
 # Advice_Generator_PHP
 
 ### <p>Its a simple project to share advices with others</p>
-### <p>i made this project as an assignment for my college and it completed (still need some edits)</p>
+### <p>i made this project as an assignment for my college</p>
 
 ## project pages
 
@@ -35,7 +35,7 @@
 
 ## How to run and use the project?
 
-1- make a database named Advice_gen and apply all the tables and data in the sql file
+1- downlad xampp and make a database named Advice_gen and apply all the tables and data in the sql file on it
 
 2- create and account or login with any account you like in the databse
 
@@ -48,4 +48,4 @@
 ### I get the design form front-end mentor:
 https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub
 ### The original design works using API that get random advice and has only one page (homepage) 
-
+### note that the project sitll need some edits and had some issues
