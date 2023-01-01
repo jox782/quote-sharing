@@ -34,7 +34,7 @@
 
 i made this project as an assignment for my college and its not completed still need some edits
 
-## how to run and use the project?
+## How to run and use the project?
 
 1- make a database named Advice_gen and apply all the tables and data in the sql file
 
