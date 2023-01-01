@@ -44,4 +44,4 @@ i made this project as an assignment for my college and its not completed still 
 
 4- there is an admin account with admin dashboard to accept or deny the advices that other users add 
 
-5- finnaly the advices that accepted will appear randomly in the home page when you press the button
+5- finaly the advices that accepted will appear randomly in the home page when you press the button
