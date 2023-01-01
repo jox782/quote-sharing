@@ -3,6 +3,24 @@
 ## <p>Its a simple project to share advices with others</p>
 ## <p>i made this project as an assignment for my college and it completed (still need some edits)</p>
 
+## project pages
+
+### User prespective
+<img src="register.png">
+
+<img src="login.png">
+
+<img src="homeUser.png">
+
+<img src="add.png">
+
+<img src="statusUser.png">
+
+### Admin prespective
+<img src="homeAdmin.png">
+
+<img src="adminStatus.png">
+
 ## The project contain:
 1- Register, login and logout
 
