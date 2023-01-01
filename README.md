@@ -32,7 +32,6 @@
 
 4- the project made using html,css and php only
 
-i made this project as an assignment for my college and its not completed still need some edits
 
 ## How to run and use the project?
 
@@ -45,3 +44,8 @@ i made this project as an assignment for my college and its not completed still 
 4- there is an admin account with admin dashboard to accept or deny the advices that other users add 
 
 5- finaly the advices that accepted will appear randomly in the home page when you press the button
+
+### I get the design form front-end mentor:
+https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub
+### The original design works using API that get random advice and has only one page (homepage) 
+
