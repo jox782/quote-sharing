@@ -48,4 +48,4 @@
 ### I get the design form front-end mentor:
 https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub
 ### The original design works using API that get random advice and has only one page (homepage) 
-### note that the project sitll need some edits and had some issues
+##### note that the project still need some edits and had some issues
