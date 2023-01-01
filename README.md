@@ -1,11 +1,12 @@
 # Advice_Generator_PHP
 
-## <p>Its a simple project to share advices with others</p>
-## <p>i made this project as an assignment for my college and it completed (still need some edits)</p>
+### <p>Its a simple project to share advices with others</p>
+### <p>i made this project as an assignment for my college and it completed (still need some edits)</p>
 
 ## project pages
 
-### User prespective
+## User prespective
+
 <img src="images/register.png">
 
 <img src="images/login.png">
@@ -17,6 +18,7 @@
 <img src="images/statusUser.png">
 
 ### Admin prespective
+
 <img src="images/homeAdmin.png">
 
 <img src="images/adminStatus.png">
