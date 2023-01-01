@@ -6,20 +6,20 @@
 ## project pages
 
 ### User prespective
-<img src="register.png">
+<img src="images/register.png">
 
-<img src="login.png">
+<img src="images/login.png">
 
-<img src="homeUser.png">
+<img src="images/homeUser.png">
 
-<img src="add.png">
+<img src="images/add.png">
 
-<img src="statusUser.png">
+<img src="images/statusUser.png">
 
 ### Admin prespective
-<img src="homeAdmin.png">
+<img src="images/homeAdmin.png">
 
-<img src="adminStatus.png">
+<img src="images/adminStatus.png">
 
 ## The project contain:
 1- Register, login and logout
